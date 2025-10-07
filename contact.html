@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Johan Beker Portfolio</title>
+    <meta name="description" content="Get in touch to discuss your next design project. Let's work together to create something amazing.">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/typography.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html#hero-section" class="logo">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <rect width="32" height="32" rx="8" fill="white"/>
+                    <path d="M8 12h16M8 16h16M8 20h16" stroke="#0a0a0a" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="index.html#services">Services</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="index.html#testimonials">Testimonials</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <button class="btn-primary">Get for Free</button>
+
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <ul class="mobile-nav-links">
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="index.html#testimonials">Testimonials</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Contact Hero -->
+    <section class="contact-hero">
+        <div class="container">
+            <h1>Let's Work Together</h1>
+            <p>Have a project in mind? Let's discuss how I can help bring your vision to life.</p>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section>
+        <div class="container">
+            <div class="contact-content">
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <h2>Get in Touch</h2>
+                    <p>I'm always excited to work on new projects and collaborate with passionate individuals. Feel free to reach out!</p>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div class="contact-item-content">
+                                <h3>Email</h3>
+                                <a href="mailto:johan@example.com">johan@example.com</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">📱</div>
+                            <div class="contact-item-content">
+                                <h3>Phone</h3>
+                                <a href="tel:+1234567890">+1 (234) 567-890</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div class="contact-item-content">
+                                <h3>Location</h3>
+                                <a href="#">San Francisco, CA</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">🌐</div>
+                            <div class="contact-item-content">
+                                <h3>Social Media</h3>
+                                <div style="display: flex; gap: 12px; margin-top: 8px;">
+                                    <a href="#" style="color: var(--text-secondary); font-size: var(--font-size-sm);">Twitter</a>
+                                    <a href="#" style="color: var(--text-secondary); font-size: var(--font-size-sm);">LinkedIn</a>
+                                    <a href="#" style="color: var(--text-secondary); font-size: var(--font-size-sm);">Dribbble</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name *</label>
+                            <input type="text" id="name" name="name" placeholder="John Doe" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <input type="text" id="subject" name="subject" placeholder="Project Inquiry" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" placeholder="Tell me about your project..." required></textarea>
+                        </div>
+
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faqs" style="margin-top: var(--space-5xl);">
+        <div class="container">
+            <h2 class="section-title">Common Questions</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What is your typical response time?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>I typically respond to all inquiries within 24 hours during business days. For urgent matters, please mention it in your message and I'll prioritize it.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What information should I include in my inquiry?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Please include details about your project scope, timeline, budget range, and any specific requirements you have. The more information you provide, the better I can understand your needs.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Do you work with international clients?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes! I work with clients worldwide and am comfortable collaborating across different time zones using video calls and project management tools.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Johan Beker</h3>
+                    <p>UI/UX & Graphic Designer</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html#services">Services</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="index.html#testimonials">Testimonials</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Dribbble</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Johan Beker. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
